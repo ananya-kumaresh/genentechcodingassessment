@@ -87,7 +87,7 @@ Question: {question}
 
     df = self.df.copy()
 
-    # normalize both sides
+    # normalize safely
     df[col] = df[col].astype(str).str.upper()
     val = str(val).upper()
 
