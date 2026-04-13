@@ -1,0 +1,26 @@
+AE plots created successfully
+# A tibble: 9 × 3
+  ACTARM               AESEV        n
+  <fct>                <fct>    <int>
+1 Placebo              SEVERE       8
+2 Placebo              MODERATE    74
+3 Placebo              MILD       219
+4 Xanomeline High Dose SEVERE      10
+5 Xanomeline High Dose MODERATE   126
+6 Xanomeline High Dose MILD       300
+7 Xanomeline Low Dose  SEVERE      25
+8 Xanomeline Low Dose  MODERATE   178
+9 Xanomeline Low Dose  MILD       251
+# A tibble: 10 × 5
+   AETERM                          n   prop  lower upper
+   <fct>                       <int>  <dbl>  <dbl> <dbl>
+ 1 PRURITUS                       57 0.224  0.175  0.281
+ 2 APPLICATION SITE PRURITUS      50 0.197  0.150  0.251
+ 3 ERYTHEMA                       38 0.150  0.108  0.200
+ 4 APPLICATION SITE ERYTHEMA      30 0.118  0.0811 0.164
+ 5 RASH                           29 0.114  0.0778 0.160
+ 6 DIZZINESS                      22 0.0866 0.0551 0.128
+ 7 APPLICATION SITE DERMATITIS    21 0.0827 0.0519 0.124
+ 8 APPLICATION SITE IRRITATION    21 0.0827 0.0519 0.124
+ 9 DIARRHOEA                      18 0.0709 0.0425 0.110
+10 SINUS BRADYCARDIA              17 0.0669 0.0395 0.105
