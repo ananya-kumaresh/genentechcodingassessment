@@ -1,0 +1,17 @@
+# A tibble: 0 × 3
+# ℹ 3 variables: USUBJID <chr>, DSSEQ <int>, n <int>
+# A tibble: 850 × 12
+   STUDYID      DOMAIN USUBJID     DSSEQ DSTERM                DSDECOD DSCAT VISITNUM VISIT DSDTC DSSTDTC    DSSTDY
+   <chr>        <chr>  <chr>       <int> <chr>                 <chr>   <chr>    <dbl> <chr> <iso> <date>      <int>
+ 1 CDISCPILOT01 DS     01-701-1015     1 Randomized            Random… DISP…        0 Base… 2014… 2014-01-02      1
+ 2 CDISCPILOT01 DS     01-701-1015     2 Protocol Completed    Comple… DISP…       26 Week… 2014… 2014-07-02    182
+ 3 CDISCPILOT01 DS     01-701-1015     3 Final Lab Visit       Final … DISP…       26 Week… 2014… 2014-07-02    182
+ 4 CDISCPILOT01 DS     01-701-1023     1 Randomized            Random… DISP…        0 Base… 2012… 2012-08-05      1
+ 5 CDISCPILOT01 DS     01-701-1023     2 Adverse Event         Advers… DISP…        4 Week… 2012… 2012-09-02     29
+ 6 CDISCPILOT01 DS     01-701-1023     3 Final Lab Visit       Final … DISP…        4 Week… 2012… 2012-09-02     29
+ 7 CDISCPILOT01 DS     01-701-1023     4 Final Retrieval Visit Final … DISP…       NA Retr… 2013… 2013-02-18    198
+ 8 CDISCPILOT01 DS     01-701-1028     1 Randomized            Random… DISP…        0 Base… 2013… 2013-07-19      1
+ 9 CDISCPILOT01 DS     01-701-1028     2 Protocol Completed    Comple… DISP…       26 Week… 2014… 2014-01-14    180
+10 CDISCPILOT01 DS     01-701-1028     3 Final Lab Visit       Final … DISP…       26 Week… 2014… 2014-01-14    180
+# ℹ 840 more rows
+# ℹ Use `print(n = ...)` to see more rows
