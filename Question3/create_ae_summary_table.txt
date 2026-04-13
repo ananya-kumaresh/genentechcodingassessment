@@ -1,0 +1,20 @@
+TEAE table created successfully
+[1] 254   4
+# A tibble: 15 × 4
+   row_label                                 Placebo  `Xanomeline High Dose` `Xanomeline Low Dose`
+   <chr>                                     <chr>    <chr>                  <chr>                
+ 1 "Treatment Emergent AEs"                  65 (76%) 68 (94%)               84 (88%)             
+ 2 "CARDIAC DISORDERS"                       12 (14%) 14 (19%)               14 (15%)             
+ 3 "   ATRIAL FIBRILLATION"                  1 (1.2%) 2 (2.8%)               2 (2.1%)             
+ 4 "   ATRIAL FLUTTER"                       0 (0.0%) 1 (1.4%)               1 (1.0%)             
+ 5 "   ATRIAL HYPERTROPHY"                   1 (1.2%) 0 (0.0%)               0 (0.0%)             
+ 6 "   ATRIOVENTRICULAR BLOCK FIRST DEGREE"  1 (1.2%) 0 (0.0%)               1 (1.0%)             
+ 7 "   ATRIOVENTRICULAR BLOCK SECOND DEGREE" 1 (1.2%) 0 (0.0%)               0 (0.0%)             
+ 8 "   BRADYCARDIA"                          1 (1.2%) 0 (0.0%)               0 (0.0%)             
+ 9 "   BUNDLE BRANCH BLOCK LEFT"             1 (1.2%) 0 (0.0%)               0 (0.0%)             
+10 "   BUNDLE BRANCH BLOCK RIGHT"            1 (1.2%) 0 (0.0%)               1 (1.0%)             
+11 "   CARDIAC DISORDER"                     0 (0.0%) 1 (1.4%)               0 (0.0%)             
+12 "   CARDIAC FAILURE CONGESTIVE"           1 (1.2%) 0 (0.0%)               0 (0.0%)             
+13 "   MYOCARDIAL INFARCTION"                4 (4.7%) 4 (5.6%)               2 (2.1%)             
+14 "   PALPITATIONS"                         0 (0.0%) 0 (0.0%)               2 (2.1%)             
+15 "   SINUS ARRHYTHMIA"                     1 (1.2%) 0 (0.0%)               0 (0.0%)             
