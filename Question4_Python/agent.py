@@ -1,22 +1,16 @@
-import json
+import os
 import pandas as pd
 from dotenv import load_dotenv
 
-from langchain_openai import ChatOpenAI
-from langchain_core.prompts import ChatPromptTemplate
-
-
 class ClinicalTrialDataAgent:
-    """
-    Clinical AI Agent that maps natural language questions
-    to structured Pandas queries using an LLM.
-    """
-
-    def __init__(self, file_path="adae.csv"):
-        # Load Env
+    def __init__(self):
         load_dotenv()
 
-        # Load Data
+        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+        file_path = os.path.join(BASE_DIR, "adae.csv")
+
+        print("DEBUG PATH:", file_path)  # optional
+
         self.df = pd.read_csv(file_path)[
             ["USUBJID", "AETERM", "AESEV", "AESOC"]
         ]
