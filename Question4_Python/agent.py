@@ -82,20 +82,24 @@ Question: {question}
     # QUERY ENGINE
     # -----------------------------
     def run_query(self, parsed):
-        col = parsed["target_column"]
-        val = parsed["filter_value"]
+    col = parsed["target_column"]
+    val = parsed["filter_value"]
 
-        filtered = self.df[
-            self.df[col].astype(str).str.contains(val, case=False, na=False)
-        ]
+    df = self.df.copy()
 
-        subjects = filtered["USUBJID"].unique()
+    # normalize both sides
+    df[col] = df[col].astype(str).str.upper()
+    val = str(val).upper()
 
-        return {
-            "unique_subject_count": len(subjects),
-            "subject_ids": list(subjects),
-            "matching_events": filtered.to_dict(orient="records")
-        }
+    filtered = df[df[col].str.contains(val, na=False)]
+
+    subjects = filtered["USUBJID"].unique()
+
+    return {
+        "unique_subject_count": len(subjects),
+        "subject_ids": list(subjects),
+        "matching_events": filtered.to_dict(orient="records")
+    }
 
     # -----------------------------
     # MAIN FUNCTION
