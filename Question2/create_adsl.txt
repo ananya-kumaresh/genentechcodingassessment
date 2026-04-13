@@ -1,0 +1,16 @@
+ADSL created successfully
+[1] 306  19
+# A tibble: 10 × 19
+   STUDYID      USUBJID     SUBJID SITEID   AGE AGEU  SEX   RACE  ETHNIC ARMCD ARM   ACTARMCD ACTARM AGEGR9 AGEGR9N
+   <chr>        <chr>       <chr>  <chr>  <dbl> <chr> <chr> <chr> <chr>  <chr> <chr> <chr>    <chr>  <chr>    <dbl>
+ 1 CDISCPILOT01 01-701-1015 1015   701       63 YEARS F     WHITE HISPA… Pbo   Plac… Pbo      Place… >50          3
+ 2 CDISCPILOT01 01-701-1023 1023   701       64 YEARS M     WHITE HISPA… Pbo   Plac… Pbo      Place… >50          3
+ 3 CDISCPILOT01 01-701-1028 1028   701       71 YEARS M     WHITE NOT H… Xan_… Xano… Xan_Hi   Xanom… >50          3
+ 4 CDISCPILOT01 01-701-1033 1033   701       74 YEARS M     WHITE NOT H… Xan_… Xano… Xan_Lo   Xanom… >50          3
+ 5 CDISCPILOT01 01-701-1034 1034   701       77 YEARS F     WHITE NOT H… Xan_… Xano… Xan_Hi   Xanom… >50          3
+ 6 CDISCPILOT01 01-701-1047 1047   701       85 YEARS F     WHITE NOT H… Pbo   Plac… Pbo      Place… >50          3
+ 7 CDISCPILOT01 01-701-1057 1057   701       59 YEARS F     WHITE HISPA… Scrn… Scre… Scrnfail Scree… >50          3
+ 8 CDISCPILOT01 01-701-1097 1097   701       68 YEARS M     WHITE NOT H… Xan_… Xano… Xan_Lo   Xanom… >50          3
+ 9 CDISCPILOT01 01-701-1111 1111   701       81 YEARS F     WHITE NOT H… Xan_… Xano… Xan_Lo   Xanom… >50          3
+10 CDISCPILOT01 01-701-1115 1115   701       84 YEARS M     WHITE NOT H… Xan_… Xano… Xan_Lo   Xanom… >50          3
+# ℹ 4 more variables: TRTSDTM <dttm>, TRTSTMF <chr>, ITTFL <chr>, LSTAVLDT <date>
