@@ -11,10 +11,11 @@ run = st.button("Run Analysis")
 
 if run and question:
 
-    agent = ClinicalTrialDataAgent()  # 👈 create agent
+    # Create Agent
+    agent = ClinicalTrialDataAgent() 
 
     with st.spinner("Analyzing..."):
-        result = agent.ask(question)  # 👈 call class method
+        result = agent.ask(question) 
 
     st.success("Done")
 
