@@ -67,10 +67,10 @@ The system translates these questions into structured queries and retrieves resu
 - Initializes the ClinicalTrialDataAgent
 - Runs 3 sample clinical queries
 - Prints:
-  Query text
-  Unique subject count
-  Subject IDs
-  Sample matching records
+  - Query text
+  - Unique subject count
+  - Subject IDs
+  - Sample matching records
   
 ---
 
